@@ -2,21 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bf1fc4a-9036-4413-9aaf-e21890dd78a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/CameraFollow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/CameraFollow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/IStair.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/IStair.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Score.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Score.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Stair.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Stair.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/StairsBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/StairsBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/Dot_01_Light.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/Dot_01_Light.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/GlowDot_01_Light.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/GlowDot_01_Light.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/Smoke_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/Smoke_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/Star_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/Star_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/Sun_Shines_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Materials/Sun_Shines_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs/BG_Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs/BG_Effects/Confetti_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs/BG_Effects/Confetti_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs/BG_Effects/Sun_Shines_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs/BG_Effects/Sun_Shines_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs/Star_01.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_09.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Scripts/starFxController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Scripts/starFxController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Scripts/vfxController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Scripts/vfxController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/Dot_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/Dot_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/GlowDot_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/GlowDot_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/Smoke_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/Smoke_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/Star_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/Star_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/Sun_Shines_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Textures/Sun_Shines_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Red_64_Dark SDF Atlas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Red_64_Dark SDF Atlas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Red_64_Dark SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Red_64_Dark SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Red_64_Light SDF Atlas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Red_64_Light SDF Atlas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Red_64_Light SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Red_64_Light SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Transpar_46 SDF Atlas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Transpar_46 SDF Atlas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Transpar_46 SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-CriticalNum_Transpar_46 SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/MuseoModerno-ExtraBold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Quicksand-Bold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Quicksand-Bold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Quicksand-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Quicksand-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Quicksand-SemiBold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Quicksand-SemiBold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Quicksand-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Quicksand-SemiBold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Rubik-Medium SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Rubik-Medium SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Rubik-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Rubik-Medium.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Rubik-SemiBold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Rubik-SemiBold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Rubik-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts/Rubik-SemiBold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Btn_IconButton_Circle_359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Btn_IconButton_Circle_359.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Icon_RankIcon_Star01_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Icon_RankIcon_Star01_l.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Icon_WhiteIcon_Arrow_Continue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Icon_WhiteIcon_Arrow_Continue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Popup00_Frame1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Popup00_Frame1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Tutorial_Focus_Icon_Hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art/Sprites/Tutorial_Focus_Icon_Hand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/CFX2_WWExplosion_C.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Enemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Enemy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Player.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.bumbleup_git/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bumbleup_git/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/CFX2 Prefabs/Explosions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/CFX2 Prefabs/Explosions/CFX2_WWExplosion_C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_09.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/CFX2 Prefabs/Explosions/CFX2_WWExplosion_C.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/CFX2_WWExplosion_C.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Ice/CFXR3 Hit Ice B (Air).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/CFXR3 Hit Ice B (Air).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Ice/CFXR3 Hit Ice B (Air).prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/CFXR3 Hit Ice B (Air).prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art/Fonts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art/Fonts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Materials/StairMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Materials/StairMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Stair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Stair.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/CameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/IStair.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/IStair.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Score.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Score.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Stair.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Stair.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/StairsBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/StairsBuilder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +119,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/EpicVictoryEffects/Scripts/starFxController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Obstacles/DeathPlate.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,16 +134,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe" />
@@ -85,7 +182,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665414981539</updated>
-      <workItem from="1665414985690" duration="5564000" />
+      <workItem from="1665414985690" duration="5668000" />
+      <workItem from="1665425109652" duration="10635000" />
+      <workItem from="1665475180901" duration="5872000" />
+      <workItem from="1665482571249" duration="2584000" />
     </task>
     <servers />
   </component>
