@@ -9,9 +9,9 @@ namespace Suli.Bumble
         private bool _isPlayerMovedUp = false;
         private readonly TutorialScreen _tutorialScreen;
         private readonly ICoroutineRunner _coroutineRunner;
-        private readonly PlayerInput _playerInput;
+        private readonly IPlayerInput _playerInput;
 
-        public Tutorial(TutorialScreen tutorialScreen, ICoroutineRunner coroutineRunner, PlayerInput playerInput)
+        public Tutorial(TutorialScreen tutorialScreen, ICoroutineRunner coroutineRunner, IPlayerInput playerInput)
         {
             _tutorialScreen = tutorialScreen;
             _coroutineRunner = coroutineRunner;

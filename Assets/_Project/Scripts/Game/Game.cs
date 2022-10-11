@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ namespace Suli.Bumble
         [SerializeField] private EnemyFabric _enemyFabric;
         [SerializeField] private Player _player;
 
-        private PlayerInput _playerInput;
+        private IPlayerInput _playerInput;
         private Tutorial _tutorial;
         private Score _score;
         private bool _isGameStarted;
@@ -21,6 +22,7 @@ namespace Suli.Bumble
 
         private void Start()
         {
+            Application.targetFrameRate = 60;
             Setup();
             SetPlayerToStart();
             StartGameWithTutorial();
@@ -34,18 +36,32 @@ namespace Suli.Bumble
             _stairsBuilder.CreateStartStairs();
             _ui.EndScreen.OnPlayButtonClick += RestartGame;
             _score.OnScoreChanged += _ui.ScoreUI.UpdateScore;
-            _playerInput = new PlayerInput();
-            _playerInput.OnMoveRight += ()=>_player.MoveSide(-1);
-            _playerInput.OnMoveLeft += () => _player.MoveSide(1);
-            _playerInput.OnMoveUp += OnPlayerMove;
+            
+#if UNITY_EDITOR
+            _playerInput = new KeyboardPlayerInput();
+#else
+            _playerInput = new GesturePlayerInput();
+#endif
+            _playerInput.OnMoveRight += ()=>
+            {
+                if(_isGameStarted)
+                    _player.MoveSide(-1);
+            };
+            _playerInput.OnMoveLeft += () =>
+            {
+                if(_isGameStarted)
+                    _player.MoveSide(1);
+            };
+            _playerInput.OnMoveUp += ()=>
+            {
+                if(_isGameStarted)
+                    OnPlayerMove();
+            };
             _tutorial = new Tutorial(_ui.TutorialScreen, this, _playerInput);
         }
 
         private void Update()
         {
-            if (!_isGameStarted)
-                return;
-            
             _playerInput.Update();
         }
 

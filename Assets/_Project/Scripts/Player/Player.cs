@@ -20,6 +20,8 @@ namespace Suli.Bumble
         [Header("Particles settings")] 
         [SerializeField] private ParticleSystem _onStepParticle;
         [SerializeField] private ParticleSystem _onDieParticlePrefab;
+
+        [SerializeField] private PlayerAudio _playerClips;
         
         private Vector3 _currStairPosition;
         private float _startXPosition;
@@ -46,6 +48,7 @@ namespace Suli.Bumble
                              (Vector3.right * (direction * _sideOffset));
             Vector3[] path = { point1, point2 };
             transform.DOLocalPath(path, _sideDuration, PathType.CatmullRom).OnComplete(StepParticle);
+            AudioManager.Instance.PlayAudio(_playerClips.MoveClip);
         }
 
         public void SetToStairPosition(Vector3 stairPosition)
@@ -64,6 +67,7 @@ namespace Suli.Bumble
             Vector3 point2 = new Vector3(transform.localPosition.x, _currStairPosition.y, stairPosition.z);
             Vector3[] path = { point1, point2 };
             transform.DOLocalPath(path, _upDuration, PathType.CatmullRom).OnComplete(StepParticle);
+            AudioManager.Instance.PlayAudio(_playerClips.MoveClip);
         }
 
         private void StepParticle()
@@ -82,6 +86,7 @@ namespace Suli.Bumble
             if (other.GetComponent<IDamageDealer>() != null)
             {
                 DieParticle();
+                AudioManager.Instance.PlayAudio(_playerClips.DieClip);
                 OnDie?.Invoke();
             }
         }
